@@ -1,12 +1,12 @@
-# 🛠️ Command-Line Assistant Toolkit
+# Command-Line Assistant Toolkit
 
 A collection of practical and interactive Bash scripts designed to streamline common Linux command-line tasks. Each tool supports useful options, safety checks, and user-friendly output.
 
 ---
 
-## 📁 Included Tools
+## Included Tools
 
-### 1. `quickfind.sh` – 🔎 Smart File Finder
+### 1. `quickfind.sh` – Smart File Finder
 
 Search for files or directories by name, type, size, and more.
 
@@ -26,7 +26,7 @@ Search for files or directories by name, type, size, and more.
 ./quickfind.sh -p "*.log" -t f -d /var/log --size -1M --open
 ```
 
-### 2. `envdump.sh` – 🌐 Environment Variable Dumper
+### 2. `envdump.sh` – Environment Variable Dumper
 
 Filter, format, and save environment variables.
 
@@ -42,7 +42,7 @@ Filter, format, and save environment variables.
 ./envdump.sh --filter PATH --json --save env.json
 ```
 
-### 3. `tarbackup.sh` – 🗜️ Smart Directory Backup
+### 3. `tarbackup.sh` – Smart Directory Backup
 
 Backup folders with compression, logging, and exclusions.
 
@@ -59,7 +59,7 @@ Backup folders with compression, logging, and exclusions.
 ./tarbackup.sh -s /home/user/project --exclude node_modules,.git --log
 ```
 
-### 4. `permfix.sh` – 🔐 Permission Fixer
+### 4. `permfix.sh` – Permission Fixer
 
 Fix file and directory permissions safely with preview.
 
@@ -76,7 +76,7 @@ Fix file and directory permissions safely with preview.
 ./permfix.sh /var/www --file-mode 600 --dir-mode 700 --dry-run
 ```
 
-### 5. `psclean.sh` – 🚫 Process Cleaner
+### 5. `psclean.sh` – Process Cleaner
 
 Search and interactively kill unwanted processes.
 
@@ -95,7 +95,7 @@ Search and interactively kill unwanted processes.
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Make Main script executable:
 
@@ -111,13 +111,13 @@ chmod +x assistant.sh
 
 ---
 
-## 🧠 Requirements
+## Requirements
 
 - Bash
 - Standard Unix tools: `find`, `ps`, `awk`, `tar`, `jq` (optional), `xdg-open` (for `--open`)
 
 ---
 
-## 📄 License
+## License
 
 MIT License — use freely and modify for your needs.
