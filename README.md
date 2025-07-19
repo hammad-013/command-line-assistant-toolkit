@@ -97,35 +97,17 @@ Search and interactively kill unwanted processes.
 
 ## 🚀 How to Use
 
-1. Make scripts executable:
+1. Make Main script executable:
 
 ```bash
-chmod +x *.sh
+chmod +x assistant.sh
 ```
 
-2. Run any tool:
+2. Run:
 
 ```bash
-./toolname.sh [options]
+./assistant.sh
 ```
-
----
-
-## 📦 Suggested Setup
-
-Organize your scripts like this:
-
-```
-command-line-assistant/
-├── quickfind.sh
-├── envdump.sh
-├── tarbackup.sh
-├── permfix.sh
-├── psclean.sh
-├── README.md
-```
-
-You can optionally create a master `assistant.sh` launcher script to select tools from a menu.
 
 ---
 
